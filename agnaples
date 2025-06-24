@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Autorità Giudiziaria - Naples, Italy</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    header, nav, footer { background-color: #1c1c1c; color: white; padding: 1em; text-align: center; }
+    nav a { margin: 0 1em; color: white; text-decoration: none; }
+    section { padding: 2em; }
+    h2 { border-bottom: 1px solid #ccc; padding-bottom: 0.5em; }
+    .profile { display: flex; align-items: flex-start; gap: 1em; margin-top: 1em; }
+    .profile img { width: 150px; height: auto; border-radius: 5px; }
+    .news, .magistrati { margin-top: 2em; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Autorità Giudiziaria - Naples, Italy</h1>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#procura">La Procura</a>
+    <a href="#tribunale">Il Tribunale</a>
+    <a href="#cassazione">Corte Suprema di Cassazione</a>
+    <a href="#ordine">Ordine degli Avvocati</a>
+    <a href="#news">News</a>
+    <a href="#bandi">Bandi Pubblici</a>
+  </nav>
+
+  <section id="home">
+    <h2>Benvenuti</h2>
+    <p>Questa è la pagina ufficiale dell'Autorità Giudiziaria di Naples, Italy. Qui troverete tutte le informazioni utili riguardanti le istituzioni giudiziarie locali.</p>
+    <div class="news">
+      <h3>Ultime News</h3>
+      <p><!-- Inserisci qui le notizie aggiornabili --></p>
+    </div>
+  </section>
+
+  <section id="procura">
+    <h2>La Procura</h2>
+    <p>La Procura svolge il ruolo fondamentale di rappresentanza dell'accusa nelle cause penali, sovrintende all'attività investigativa e garantisce l'applicazione delle leggi.</p>
+
+    <h3>Procuratore Generale</h3>
+    <div class="profile">
+      <img src="foto_generale.jpg" alt="Foto Procuratore Generale">
+      <div>
+        <strong>Nome:</strong> <br>
+        <strong>Biografia:</strong> <p><!-- Inserisci biografia --></p>
+        <strong>Contatti:</strong> <p><!-- Inserisci contatti --></p>
+      </div>
+    </div>
+
+    <h3>Procuratore della Repubblica</h3>
+    <div class="profile">
+      <img src="foto_repubblica.jpg" alt="Foto Procuratore della Repubblica">
+      <div>
+        <strong>Nome:</strong> <br>
+        <strong>Biografia:</strong> <p><!-- Inserisci biografia --></p>
+        <strong>Contatti:</strong> <p><!-- Inserisci contatti --></p>
+      </div>
+    </div>
+
+    <h3>Procuratore Distrettuale Antimafia</h3>
+    <div class="profile">
+      <img src="foto_antimafia.jpg" alt="Foto Procuratore Distrettuale Antimafia">
+      <div>
+        <strong>Nome:</strong> <br>
+        <strong>Biografia:</strong> <p><!-- Inserisci biografia --></p>
+        <strong>Contatti:</strong> <p><!-- Inserisci contatti --></p>
+      </div>
+    </div>
+
+    <div class="magistrati">
+      <h3>Magistrati Requirenti</h3>
+      <ul>
+        <li>Nome Magistrato - Funzione</li>
+        <li><!-- Aggiungi altri nomi --></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="tribunale">
+    <h2>Il Tribunale</h2>
+    <p>Il Tribunale è competente a giudicare le cause civili e penali secondo le norme del codice di procedura italiana.</p>
+
+    <h3>Presidente del Tribunale</h3>
+    <div class="profile">
+      <img src="foto_presidente_tribunale.jpg" alt="Foto Presidente Tribunale">
+      <div>
+        <strong>Nome:</strong> <br>
+        <strong>Biografia:</strong> <p><!-- Inserisci biografia --></p>
+        <strong>Contatti:</strong> <p><!-- Inserisci contatti --></p>
+      </div>
+    </div>
+
+    <div class="magistrati">
+      <h3>Magistrati Ordinari</h3>
+      <ul>
+        <li>Nome Magistrato - Funzione</li>
+        <li><!-- Aggiungi altri nomi --></li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="cassazione">
+    <h2>Corte Suprema di Cassazione</h2>
+    <p>La Corte Suprema di Cassazione è l'organo di legittimità del sistema giudiziario italiano, con il compito di assicurare l'uniforme interpretazione della legge.</p>
+
+    <h3>Presidente della Corte Suprema di Cassazione</h3>
+    <div class="profile">
+      <img src="foto_presidente_corte.jpg" alt="Foto Presidente Corte Suprema">
+      <div>
+        <strong>Nome:</strong> <br>
+        <strong>Biografia:</strong> <p><!-- Inserisci biografia --></p>
+        <strong>Contatti:</strong> <p><!-- Inserisci contatti --></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="ordine">
+    <h2>Ordine degli Avvocati</h2>
+    <p>L'Ordine degli Avvocati è l'ente che rappresenta la professione forense e garantisce il rispetto delle norme deontologiche da parte dei suoi iscritti.</p>
+
+    <h3>Presidente dell'Ordine degli Avvocati</h3>
+    <div class="profile">
+      <img src="foto_presidente_ord.jpg" alt="Foto Presidente Ordine Avvocati">
+      <div>
+        <strong>Nome:</strong> <br>
+        <strong>Biografia:</strong> <p><!-- Inserisci biografia --></p>
+        <strong>Contatti:</strong> <p><!-- Inserisci contatti --></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="bandi">
+    <h2>Bandi Pubblici</h2>
+    <p><!-- Inserisci qui i bandi pubblici aggiornabili --></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Autorità Giudiziaria - Naples, Italy</p>
+  </footer>
+</body>
+</html>
